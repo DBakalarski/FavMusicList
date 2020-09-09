@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.favMusicList {
+  display: flex;
+  padding: 20px;
+
+
+  &__form {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+  }
+
+  &__list {
+    padding-left: 40px;
+  }
+
+  &Item {
+    display: flex;
+    align-items: center;
+    padding: 4px 0;
+    line-height: 1;
+
+    &:hover {
+      .favMusicListItem__title {
+        font-weight: bold;
+      }
+    }
+
+    &__title {
+      width: 120px;
+      word-break: break-all;
+    }
+
+    &__removeIcon {
+      padding-left: 10px;
+      cursor: pointer;
+
+      &:hover {
+        color: #ff1919
+      }
+    }
+
+    &__starIcon {
+      padding-left: 7px;
+      cursor: pointer;
+
+      &:hover {
+        color: #ffdf32;
+      }
+
+      &.active {
+        color: #ffdf32;
+      }
+
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .favMusicList {
+    flex-direction: column;
+    align-items: center;
+    ;
+
+    &__list {
+      padding: 20px 0 0 0;
+    }
+
+    &__form {
+      align-self: center;
+    }
+  }
+
+}
