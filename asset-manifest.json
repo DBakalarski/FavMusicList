@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FavMusicList/static/css/main.852e29e1.chunk.css",
+    "main.js": "/FavMusicList/static/js/main.f4696573.chunk.js",
+    "main.js.map": "/FavMusicList/static/js/main.f4696573.chunk.js.map",
+    "runtime-main.js": "/FavMusicList/static/js/runtime-main.874e8bfc.js",
+    "runtime-main.js.map": "/FavMusicList/static/js/runtime-main.874e8bfc.js.map",
+    "static/js/2.8d357519.chunk.js": "/FavMusicList/static/js/2.8d357519.chunk.js",
+    "static/js/2.8d357519.chunk.js.map": "/FavMusicList/static/js/2.8d357519.chunk.js.map",
+    "index.html": "/FavMusicList/index.html",
+    "precache-manifest.58be77452b8bf53e206b5fe5b24f3106.js": "/FavMusicList/precache-manifest.58be77452b8bf53e206b5fe5b24f3106.js",
+    "service-worker.js": "/FavMusicList/service-worker.js",
+    "static/css/main.852e29e1.chunk.css.map": "/FavMusicList/static/css/main.852e29e1.chunk.css.map",
+    "static/js/2.8d357519.chunk.js.LICENSE.txt": "/FavMusicList/static/js/2.8d357519.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.874e8bfc.js",
+    "static/js/2.8d357519.chunk.js",
+    "static/css/main.852e29e1.chunk.css",
+    "static/js/main.f4696573.chunk.js"
+  ]
+}
